@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FallbackIllustrationsView" customModule="NYCHighSchools" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="7Ma-pj-prh" id="tly-g9-ftA"/>
+                <outlet property="fallBackDiscriptionLabel" destination="iHQ-Mm-wXe" id="dxr-RG-Voy"/>
+                <outlet property="fallBackTitleLabel" destination="ihC-E1-ByU" id="abp-we-WsX"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="7Ma-pj-prh">
+            <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Data" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iHQ-Mm-wXe">
+                    <rect key="frame" x="16" y="417.33333333333331" width="361" height="17.666666666666686"/>
+                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="15"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Oops!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ihC-E1-ByU">
+                    <rect key="frame" x="16" y="367.33333333333331" width="361" height="28"/>
+                    <fontDescription key="fontDescription" name="Menlo-Bold" family="Menlo" pointSize="24"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="Pdh-CG-pNH"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="ihC-E1-ByU" secondAttribute="trailing" constant="16" id="JD4-3V-fJr"/>
+                <constraint firstItem="iHQ-Mm-wXe" firstAttribute="leading" secondItem="Pdh-CG-pNH" secondAttribute="leading" constant="16" id="Oj9-EU-tSD"/>
+                <constraint firstItem="iHQ-Mm-wXe" firstAttribute="centerY" secondItem="7Ma-pj-prh" secondAttribute="centerY" id="Udz-0o-L4r"/>
+                <constraint firstItem="ihC-E1-ByU" firstAttribute="leading" secondItem="Pdh-CG-pNH" secondAttribute="leading" constant="16" id="fdK-ZK-8Ma"/>
+                <constraint firstItem="iHQ-Mm-wXe" firstAttribute="top" secondItem="ihC-E1-ByU" secondAttribute="bottom" constant="22" id="ohY-pt-PL0"/>
+                <constraint firstItem="iHQ-Mm-wXe" firstAttribute="centerX" secondItem="7Ma-pj-prh" secondAttribute="centerX" id="rvI-1v-xHm"/>
+                <constraint firstItem="Pdh-CG-pNH" firstAttribute="trailing" secondItem="iHQ-Mm-wXe" secondAttribute="trailing" constant="16" id="vpz-Sd-JxK"/>
+            </constraints>
+            <point key="canvasLocation" x="-20.289855072463769" y="72.991071428571431"/>
+        </view>
+    </objects>
+</document>
